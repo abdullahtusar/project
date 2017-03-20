@@ -1,0 +1,271 @@
+/*=================================================start font fact================================*/
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+ @font-face {
+ font-family: 'bebas';
+ src: url("../BEBAS___.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: 'bebas';
+ src: url("../BEBAS___.TTF") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: 'helveticaneue';
+ src: url("../HelveticaNeue.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: 'helveticaneue';
+ src: url("../HelveticaNeue.ttf") /* TTF file for CSS3 browsers */
+
+} 
+.h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+.box1{
+	box-sizing: border-box;
+	height: 100px;
+}
+.box2{
+	box-sizing: border-box;
+	height: 517px;
+}
+.box3{
+
+	box-sizing: border-box;
+    height: 104px;
+}
+.box4{
+	box-sizing: border-box;
+	height: 400px;	
+}
+/*=============================================================header===========================================================*/
+.logo{
+
+}
+.logo h1{
+ 	font-family: Pacifico;
+ 	font-weight: bold;
+}
+
+.menu{
+
+}
+.menu ul{
+
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 68px;
+    padding-top: 6px;
+    font-family: bebas;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #474747;
+}
+#ip{
+	margin-right:0;
+}
+.menu ul li span{
+	font-size: 15px;
+	color: #808080;
+}
+
+/*================================================================slider================================================*/
+.slider_img{
+	position: relative;
+}
+.slider_img_txt{
+	position: absolute;
+    background: #4c4c4c;
+    margin-top: -7%;
+    margin-left: -1.28%;
+    padding: 9px;
+}
+.slider_img_txt p{
+    margin: 0;
+    padding: 0;
+    font-family: bebas;
+    color: #868686;
+    font-size: 18px;
+}
+.slider_img_txt h1{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: bebas;
+ 	color: white;
+}
+.slider_img_img1{
+    position: absolute;
+    margin-top: -1.5%;
+    margin-left: 47%;
+}
+.slider_img_img2{
+    position: absolute;
+    margin-top: -3.6%;
+    margin-left: 84%;
+}
+.slider_text_txt{
+    position: absolute;
+    top: -16%;
+    padding: 10px;
+
+}
+.slider_text_txt h1{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: bebas;
+}
+.slider_text_txt p{
+    font-family: helveticaneue;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+/*===============================================service========================================================*/
+.sevice{
+
+}
+
+.ser1,.ser2,.ser3{
+    margin-top: 23%;
+}
+.ser1_box img,.ser2_box img,.ser3_box img{
+	float: left;
+    width: 17%;
+    height: 50px;
+    padding: 4px;
+
+}
+.ser1_box, .ser2_box, .ser3_box{
+	width: 100%;
+    height: 58px;
+}
+.ser1 h2,.ser2 h2, .ser3 h2{
+	float: right;
+    text-transform: uppercase;
+    font-size: 21px;
+    width: 72%;
+    font-weight: bold;
+    font-family: bebas;
+    color: #474747;
+}
+.ser1 p,.ser2 p,.ser3 p{
+	padding-right: 30px;
+	text-align: justify;
+	font-family: helveticaneue;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+/*===================================================start work===========================================*/
+
+/*========================================work 1st row===================================*/
+.work{
+
+}
+.work_border {
+	position: relative;
+	height: 130px;
+	margin-top: -21px;
+}
+.work_border img {
+	width: 99%;
+    margin-top: 4%;
+}
+.work_border h1 {
+    position: absolute;
+    font-family: bebas;
+    font-size: 21px;
+    word-spacing: 2px;
+    font-weight: 500;
+    color: #474747;
+    top: 21%;
+    left: 41%;
+    padding: 1px 0px 0px 15px;
+    width: 16%;
+    height: 34px;
+    background: white;
+}
+
+/*========================================work 2nd row===================================*/
+.work_images {
+
+}
+.wi1 ,.wi2,.wi3,.wi4{
+	margin-right: 1%;
+}
+
+.wi1 h2,.wi2 h2,.wi3 h2,.wi4 h2{
+    font-size: 17px;
+    font-weight: 200;
+    font-family: bebas;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    text-transform: uppercase;
+    color: #474747;
+}
+.wi1 p,.wi2 p,.wi3 p,.wi4 p{
+	text-align: justify;
+	font-family: helveticaneue;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+/*=====================================button================================*/
+
+
+.btn{
+	padding: 6px 0px;
+}
+
+
+
+.btn p {
+	font-family: bebas;
+    font-size: 12px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+/*==============================================footer=======================================*/
+
+.footer {
+	background: #f5f5f5;
+    height: 91px;
+    margin-top: -15px;
+}
+.footer_text p{
+    float: left;
+    font-family: helveticaneue;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 88px;
+    margin-top: 28px;
+}
+
+
+.footer_text span{
+    float: right;
+    font-family: helveticaneue;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 28px;
+    margin-right:90px;
+}
+.footer_text pre{
+    margin: -29px 0px 0px 100px;
+}
+
